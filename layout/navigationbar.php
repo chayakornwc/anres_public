@@ -20,13 +20,16 @@
     <li class="nav-item">
       <a class="nav-link" href="/organising.php">Organising</a>
     </li>
-    <li class="nav-item dropdown-toggle" >
+    <li class="nav-item " >
       <a class="nav-link disabled" href="/registration.php">Registration</a>
+    </li>
+    <li class="nav-item dropdown-toggle" >
+      
+      <a class="nav-link disabled" href="/presentation.php">Presentation</a>
       <div  class="dropdown-menu">
         <ul>
-          <li><a href="/abstract.php">Abstract</a></li>
-          <li><a href="/proceeding.php">Proceeding</a></li>
-          <li><a href="#">Manuscript submission </a></li>
+          <li><a href="/abstract.php">Submission type</a></li>
+         
         </ul>
       </div>
     </li>

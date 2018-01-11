@@ -53,8 +53,20 @@ include('layout/navigationbar.php');
       <article class="main-article" style="min-height:600px;">
         <div  class="section-conntent">
 
-            <div class="col-md-7 md-auto">
-                <h3>Sponsors<h3>
+         
+                        <div class="container-fluid sponsors"> 
+
+            <h3 class="font-header">Sponsors by</h3>
+
+            <div class="col-sm-12">
+
+            <img src="img/sponsors_1.jpg">
+
+            <img src="img/sponsors_2.png">
+
+            <img src="img/sponsors_2.jpg">
+
+            </div>
             </div>
        
        </div>

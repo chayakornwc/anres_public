@@ -100,8 +100,7 @@ include('layout/navigationbar.php');
     var  _registration = $('<div>', {class:'registration-info'})
         _registration.append(
           $("<h3>", {text:'Registration will be available on '}).append(
-            $('<strike>', {text:'8 January 2018'}),
-            $('<span>', {class:'red', text:' extented 15 January 2018'})
+            $('<span>', {class:'', text:' 15 January 2018'})
           )
         )
         $.each(results, function(key, values){
@@ -146,38 +145,42 @@ include('layout/navigationbar.php');
           })
           switch(key){
             case 'table1':
-            _registration.append($('<h3>',{text:'อัตราลงทะเบียนสำหรับคนไทย'}));
+            _registration.append($('<h3>',{text:'อัตราลงทะเบียนสำหรับคนไทย', "style":"padding-top:20px;"}));
             break;
             case 'table2':
-              _registration.append($('<h3>',{text:'Registration Fee'}));
+              _registration.append($('<h3>',{text:'Registration Fees', "style":"padding-top:5px;"}));
               break;
           }
           _table.append(_tbody)
           _registration.append(_table);
+         
         })
-      $.when($('.section-conntent').append(_registration)).then(
-        $('.section-conntent').append(
-        $('<div>', {class:'row'}).append(
-          $('<div>', {class:"col-md-5 order-md-1"}).append(
-            $('<div>', {class:"container"}).append(
-            $('<h5>', {text:"Guidelines for Oral Presentation"}),
-              $('<p style="font-size:16px; text-align:left" >').append('"12	min for presentation and 3 min for discussion Speaker should upload presentation file (.pptx, .pdf) before session.Oral Presentation awards will be announced at closing ceremony on 28 Apr. Awardee is requested to attend.')
-          )
-          ),
-          $('<div>', {class:'col-md-5 order-md-2'}).append(
-            $('<div>', {class:'container'}).append(
-              $('<h5>', {text:'Guidelines for Poster Presentation '}),
-              $('<ul>').append(
-                $('<li>', {text:'Poster size: 60 cm (W) X 110 cm (H) Top and bottom margins 1 inch'}),
-                $('<li>', {text:'Discussion time is set for poster presentations. Please check the schedule to confirm your discussion time'}),
-                $('<li>', {text:'Please set your poster on the poster panel labeled with your presentation number on 26 Apr at 8.30-11.00 and removal poster on 28 Apr before 12.00.'}),
-                $('<li>', {text:'Poster awards will be announced at closing ceremony on 28 Apr. Awardee is requested to attend'})
-              )
-            )
-          )
-        )
-        )
-      ) 
+        _registration.append($('<button>', {style:"margin-top:30px; margin-bottom:30px;", type:"button", class:"btn btn-warning", text:"Get to registration!"}));
+        $('.section-conntent').append(_registration);
+      
+      // $.when($('.section-conntent').append(_registration)).then(
+      //   $('.section-conntent').append(
+      //   $('<div>', {class:'row'}).append(
+      //     $('<div>', {class:"col-md-5 order-md-1"}).append(
+      //       $('<div>', {class:"container"}).append(
+      //       $('<h5>', {text:"Guidelines for Oral Presentation"}),
+      //         $('<p style="font-size:16px; text-align:left" >').append('"12	min for presentation and 3 min for discussion Speaker should upload presentation file (.pptx, .pdf) before session.Oral Presentation awards will be announced at closing ceremony on 28 Apr. Awardee is requested to attend.')
+      //     )
+      //     ),
+      //     $('<div>', {class:'col-md-5 order-md-2'}).append(
+      //       $('<div>', {class:'container'}).append(
+      //         $('<h5>', {text:'Guidelines for Poster Presentation '}),
+      //         $('<ul>').append(
+      //           $('<li>', {text:'Poster size: 60 cm (W) X 110 cm (H) Top and bottom margins 1 inch'}),
+      //           $('<li>', {text:'Discussion time is set for poster presentations. Please check the schedule to confirm your discussion time'}),
+      //           $('<li>', {text:'Please set your poster on the poster panel labeled with your presentation number on 26 Apr at 8.30-11.00 and removal poster on 28 Apr before 12.00.'}),
+      //           $('<li>', {text:'Poster awards will be announced at closing ceremony on 28 Apr. Awardee is requested to attend'})
+      //         )
+      //       )
+      //     )
+      //   )
+      //   )
+      // ) 
       
       
     

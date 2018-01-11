@@ -91,7 +91,7 @@
           _table.append(_tbody);
             $('.section-conntent').append(
               $('<div>', {class:'header-content'}).append(
-                $("<i>", {class:'fa fa-users'}),
+           key =="Conference Organising Committee" ?      $("<img>", {src:'img/header2.jpg'}) :'',
                 $("<p>").append(
                   key
                 ),

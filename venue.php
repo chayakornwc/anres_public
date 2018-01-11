@@ -40,13 +40,15 @@
         <div class="section-conntent">
 
         <div class="col-md-8 md-auto">
-        <p style="padding-top:15px;"><a href="http://www.windsorsuiteshotel.com/">HOTEL WINDSOR SUITES & CONVENTION
+        <p style="padding-top:15px;"><a style="color: #f52c40; font-weight:bold;" href="http://www.windsorsuiteshotel.com/">HOTEL WINDSOR SUITES & CONVENTION
          <br> Sukhumvit 20, Sukhumvit Road, Bangkok 10110, Thailand Tel +66 2 262 1234
-      </a></p>
+      </a></p><button style="margin-bottom:10px;" onclick="window.location.href='http://www.windsorsuiteshotel.com/'" type="button" class="btn btn-info"><i class="fa fa-external-link" aria-hidden="true"></i> Hotel Website</button>
         <img src="./img/winsor.jpg" style="width:100%; height:auto;"> </img>
       <p>The Hotel Windsor Suites & Convention has a privileged location at the heart of Bangkok, a few steps away (500 m) from the BTS sky train Asoke station and the MRT subway Sukhumvit station. </p>
+       <!-- <p>Special hotel room reservation for ANRES 2018, <br> please download the form and email to<p></p> -->
       <p>The Bus pass are line 2, 25, 38, 40, 501, 508, 511, 513 </p>
-      <img src="./img/bts.jpg" style="width:100%; max-width:420px; height:auto; padding-bottom:30px;"> </img>
+   
+     
       </div>
       <div class="col-md-8 md-auto">
           <div class="container" style="padding-bottom:30px;">
@@ -54,6 +56,7 @@
               this map
            </div>
     </div>
+    <img src="./img/windsor.jpg" style="width:100%; height:auto;"> </img>
     </div>
 
             </article>

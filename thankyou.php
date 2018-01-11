@@ -43,11 +43,11 @@
         <div  class="section-conntent">
                     <p><b>Thank You for your registration for  The International Conference on Agriculture and Natural Resources 2018 the WHAT REALLY MATTERS 2018 event.</b></p> 
             <p></p> 
-            <p>Please bring a printed copy of your confirmation email (sent to the email you used to make your payment) to the event for registration check in.</p> 
+            <p>Please bring a printed copy of your confirmation email (sent to the e-mail  used the payment) to the event for registration check in.</p> 
             <p></p> 
             <p>Please email us at anresconference@ku.th for any questions.</p> 
             <p></p> 
-            <p>We look forward to seeing you on Hotel Windsor Suites & Convention Bangkok Thailand April 26, 2018!</p
+            <p>We look forward to seeing you at Hotel Windsor Suites & Convention Bangkok Thailand on April 26, 2018!</p>
 
 </div>
 </article>
